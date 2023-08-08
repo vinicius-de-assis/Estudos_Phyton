@@ -3,7 +3,7 @@
 #1- perguntar nome do usuario (usamos a variavel name para guardar o nome)
 #name = input("What´s your name? ") 
 
-#Como já sabemos algumas funções podemos colocar elas no input, como por exemplo pedindo o nome do usuário
+#Como já sabemos algumas funções podemos coloocar elas no input, como por exemplo pedindo o nome do usuário
 
 name = input("What´s your name? ").strip().title()      #aq pedimos o nome de usuario e a resposta bem sem espaços
 #.                                                            e com maiusculas em cada palavra
