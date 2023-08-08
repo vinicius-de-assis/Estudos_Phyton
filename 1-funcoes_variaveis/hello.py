@@ -3,7 +3,7 @@
 #1- perguntar nome do usuario (usamos a variavel name para guardar o nome)
 name = input("What´s your name? ")
 
-#2- printar hello e nome do usuario
+#2- printar hello e nome do usuario FUNCIONOU?
 
 print("ex1: hello, " + name)
 
