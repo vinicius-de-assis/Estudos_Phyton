@@ -15,7 +15,7 @@ name = input("What´s your name? ")      #aq pedimos o nome de usuario e a respo
 #FUNCAO --> nome_da_string.strip()     --> remove espaços
 name_strip = name.strip()         
 #var = nome_da_string.strip()
-print(f"STRIP = hello, {name_strip}")               #--> hello sem espaços
+print(f"\nSTRIP = hello, {name_strip}")               #--> hello sem espaços
 #---------------------------------------------------------------------------------------------------------
 #FUNCAO --> nome_da_string.capitalize()   --> Coloca letra maíscula no primeiro caracter (ex: vini fica Vini)
 name_capitalize = name.capitalize()         
