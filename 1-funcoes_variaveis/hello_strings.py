@@ -5,7 +5,7 @@
 
 #Como já sabemos algumas funções podemos coloocar elas no input, como por exemplo pedindo o nome do usuário
 
-name = input("What´s your name? ").strip().title()      #aq pedimos o nome de usuario e a resposta bem sem espaços
+name = input("What´s your name? ")      #aq pedimos o nome de usuario e a resposta bem sem espaços
 #.                                                            e com maiusculas em cada palavra
 
 
@@ -13,22 +13,27 @@ name = input("What´s your name? ").strip().title()      #aq pedimos o nome de u
 #para testar as funções é necessário escrever a linha de código antes: name = input("What´s your name? ")
 #=============================================================================================================
 #FUNCAO --> nome_da_string.strip()     --> remove espaços
-name = name.strip()         
+name_strip = name.strip()         
 #var = nome_da_string.strip()
-print(f"hello, {name}")               #--> hello sem espaços
+print(f"STRIP = hello, {name_strip}")               #--> hello sem espaços
 #---------------------------------------------------------------------------------------------------------
 #FUNCAO --> nome_da_string.capitalize()   --> Coloca letra maíscula no primeiro caracter (ex: vini fica Vini)
-name = name.capitalize()         
+name_capitalize = name.capitalize()         
 #var = nome_da_string.capitalize()
-print(f"hello, {name}")                  #--> hello com primeiro caracter maisculo
+print(f"CAPITALIZE = hello, {name_capitalize}")                  #--> hello com primeiro caracter maisculo
 #---------------------------------------------------------------------------------------------------------
 #FUNCAO --> nome_da_string.title()   --> Coloca letra maíscula em cada palavra (ex: vini assis  fica Vini Assis)
-name = name.title()         
+name_title = name.title()         
 #var = nome_da_string.title()
-print(f"hello, {name}")              #--> hello com letra maíscula em cada palavra
+print(f"TITLE = hello, {name_title}")              #--> hello com letra maíscula em cada palavra
 #==============================================================================================================
 #TAMBEM É POSSIVEL USAR MAIS DE UMA FUNCAO EX: VAMOS REMOVER ESPACO E COLOCAR LETRA MAISCULA EM CADA PALAVRA
-name = name.strip().title()       
+name_strip_title = name.strip().title()       
 #var = nome_da_string.strip().title()
-print(f"hello, {name}")              #--> hello com letra maíscula em cada palavra e sem considerar espaços
+print(f"STRIP AND TITLE = hello, {name_strip_title}")              #--> hello com letra maíscula em cada palavra e sem considerar espaços
+#---------------------------------------------------------------------------------------------------------
+#FUNCAO --> nome_da_string.split("caractere que quero que divida a partir")   --> separa as palavras a partir de determinado caractere
+first, last = name.split(" ")         
+#var = nome_da_string.split(" ") #separa a partir do "espaço"
+print(f"SPLIT = hello, {last, first}")              #--> hello com letra maíscula em cada palavra
 #==============================================================================================================
